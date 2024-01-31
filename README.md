@@ -17,5 +17,5 @@ Enable "Developer mode" in the top right corner.
 Click on "Load unpacked" and select the dist directory within your cloned repository.
 Activate the Extension:
 
-After loading, you should see your extension in the list on the chrome://extensions/ page.
+After loading, you should see the extension in the list on the chrome://extensions/ page.
 Make sure it is enabled.
