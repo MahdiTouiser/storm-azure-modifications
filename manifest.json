@@ -1,0 +1,21 @@
+{
+    "name": "Storm Azure",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    },
+    "description": "An extension to make some modifications in Storm Azure developed by Mahdi Touiserkani",
+    "content_scripts": [
+      {
+        "matches": ["http://azure.storm-devops.ir/*"],
+        "js": ["./dist/bundle.js"]
+      }
+    ],
+    "icons": {
+        "16": "images/storm-logo.png",
+        "48": "images/storm-logo.png",
+        "128": "images/storm-logo.png"
+      }
+  }
+  
