@@ -1,7 +1,10 @@
+
+** An extension to make some modifications in Storm Azure developed by Mahdi Touiserkani **
+
 Follow these steps to install the extension:
 
-
 Install Dependencies:
+
 ```npm install```
 
 Build the Extension:
